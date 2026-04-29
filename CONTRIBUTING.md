@@ -317,3 +317,36 @@ Do not open public issues for security vulnerabilities. Follow [SECURITY.md](SEC
 ## Code of conduct
 
 All contributors are expected to follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+## Example: First Pull Request (Docs Change)
+
+Below is a sample pull request description for a small documentation update.
+
+---
+
+### Title
+docs: improve contributing guide with clarification on setup steps (#XX)
+
+---
+
+### Summary
+This PR improves the contributing documentation by clarifying the project setup steps for new contributors.
+
+---
+
+### Linked Issue
+Closes #XX
+
+---
+
+### Changes
+- Updated setup instructions in `CONTRIBUTING.md`
+- Fixed minor wording issues for clarity
+- Improved formatting for readability
+
+---
+
+### Verification
+Run the following command to ensure formatting is correct:
+
+```bash
+pnpm format:prettier:check
