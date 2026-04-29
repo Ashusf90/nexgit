@@ -166,3 +166,23 @@ Try these steps:
 4. Ask for help with context.
 
 Getting stuck is part of contributing. Please ask questions.
+
+You can verify your setup using scaffold commands:
+
+```bash
+nexgit version --json
+
+See docs/onboarding.md for full example outputs.
+
+
+---
+
+# ⚠️ IMPORTANT (DO NOT MISS)
+
+You MUST clearly mention:
+
+👉 “**scaffold / placeholder output**”
+
+This is part of acceptance criteria.
+
+---
